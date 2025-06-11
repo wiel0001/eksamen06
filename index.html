@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta name="robots" content="noindex" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front page</title>
+
+    <link rel="shortcut icon" href="./ikoner/hovedlogo.webp" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="layout.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="ikoner/hovedlogo.webp" alt="hovedlogo" />
+            </a>
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <li><a id="aktiv" href="index.html">Forside</a></li>
+                <li class="liste">
+                    <a href="#">Portefølje</a>
+                    <ul class="liste_indhold">
+                        <li><a href="web.html">Web</a></li>
+                        <li><a href="uxui.html">UX/UI</a></li>
+                        <li><a href="animation.html">Animation</a></li>
+                        <li><a href="indhold.html">Indhold</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="om_mig.html">Om mig</a></li>
+            </ul>
+
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+
+        <script src="script.js"></script>
+    </header>
+
+    <main>
+
+        <h1>Oversigt</h1>
+
+        <div class="grid">
+            <div class="grid1">
+                <div class="container_kasser_1">
+                    <a href="web.html" class="box1">
+                        <h2 class="box_title">Web</h2>
+                    </a>
+                </div>
+
+                <div class="container_kasser_2">
+                    <a href="uxui.html" class="box2">
+                        <h2 class="box_title">UX/UI</h2>
+                    </a>
+                </div>
+
+                <div class="container_kasser_3">
+                    <a href="animation.html" class="box3">
+                        <h2 class="box_title">Animation</h2>
+                    </a>
+                </div>
+
+                <div class="container_kasser_4">
+                    <a href="indhold.html" class="box4">
+                        <h2 class="box_title">Indhold</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <a href="om_mig.html"> <img src="ikoner/mail.png" alt="mail" /></a>
+        </div>
+        <p>wiel0001@stud.kea.dk</p>
+        <p>Another dash of magic from Encantada</p>
+    </footer>
+</body>
+
+</html>
